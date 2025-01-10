@@ -1,0 +1,8 @@
+Sobre a criação de novos tipos 
+
+- Há a possibilidade de gerar novos tipos em TypeScript, ja vimos isso com Generics (vamos nos aprofundar neste recurso tambem);
+- Porem existem outros operadores que visam facilitar nossa vida neste assunto;
+- A ideia deste recurso é deixar a manutenção do projeto mais simples;
+- Ou seja, gastar mais tempo na estruturação dos tipos e menos na busca de possiveis bugs depois;
+
+

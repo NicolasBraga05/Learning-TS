@@ -1,0 +1,15 @@
+{
+  "name": "learning_ts",
+  "version": "1.0.0",
+  "description": "Estudos sobre TypeSript",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/NicolasBraga05/Learning-TS"
+  },
+  "author": "DevNicolas",
+  "license": "ISC"
+}

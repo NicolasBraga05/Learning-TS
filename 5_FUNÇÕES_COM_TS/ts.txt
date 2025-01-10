@@ -1,0 +1,73 @@
+Funções que não retornam nada
+
+- Podemos ter funções que não retornam valores;
+- Neste caso utilizamos o void;
+- Ele vai dizer ao TypeScript que não temos um valor de retorno;
+
+
+Callback como argumento
+
+- Podemos inserir uma função de callback como argumento de função;
+- Nela conseguimos definir o tipo de argumento aceito pela a callback;
+- E tambem o tipo de retorno da mesma;
+
+
+Generic functions
+
+- É uma estrategia para quando o tipo de retorno é relacionado ao tipo deo argumento;
+- Por exemplo: um item de um array, pode ser string, boolean ou number;
+- Normalmente são utilizadas letras como T ou U para definir generics, é uma convenção;
+
+
+Constraints nas Generic functions
+- As Generic Functions podem terseu escopo reduzido por constraints;
+- Basicamente limitamos aos tipos que podem ser utilizados no Generics;
+- Isso faz com que o nosso escopo seja menos abrangente;
+
+
+Definindo tipo de parametros
+
+- Em Generic functions temos que utilizar parametros de tipos semelhantes, se nao recebemos um erro;
+- Porem há a possibilidade de determinar o tipo tambem dos parametros aceitos, com uma sintaxe especial;
+- Isso faz com que a validação do TypeScript aceite os tipos escolhidos;
+
+
+Parametros opcionais
+
+- Nem sempre utilizamos todos os parametros de um função;
+- Mas se ele for opcional, precisamos decalrar isso para o TypeScript;
+- E ainda deixar ele no fim da lista de parametros;
+
+
+Parametros default
+
+- Os parametros default são os que ja possuem um valor definido;
+- Se não passarmos para a função, é utilizado esse valor;
+- Para este recurso, a aplicação em TypeScript é igual JavaScript;
+
+
+O tipo unknown
+
+- O tipo unknown é utilizado de forma semelhante ao any, ele aceita quaquer tipo de dado;
+- Porem a diferença é que ele nao deixa algo ser executado se nao houver validação de tipo;
+- Ou seja, adicionamos uma trava de segurança;
+
+
+O tipo never 
+
+- O never é um tipo de retorno semelhante ao void;
+- Porem é utilizado quando a função não retorna nada;
+- Um exemplo: retorno de erros;
+
+
+Rest operator com TypeScript
+
+- Em JavaScript ES6 podemos utilizar o Rest Operator;
+- Para aplica-lo em parametros em TypeScript é facil, basta definir o tipo de dado com a sitaxe de Rest;
+
+
+Destructuring em parametros
+
+- O Destructuring, outro recurso do ES6, tambem pode ser aplicado com TypeScript;
+- Precisamos apenas determinar o tipo de cada dado que sera desestruturado;
+- Desta maneira o TypeScript valida o Destructuring;

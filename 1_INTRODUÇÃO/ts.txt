@@ -1,0 +1,16 @@
+O que é o TypeScript?
+
+- TypeScript é um superset para a linguagem de JavaScript;
+- Ou seja, adiciona funções ao JavaScript, como a declaração de tipos de variável;
+- Pode ser utilizado com frameworks/libs, como: Express e React;
+- Precisa ser compilado em JavaScript, ou seja, não executamos TS;
+- Desenvolvido e mantido pela Microsoft.
+
+
+Por que TypeScript?
+
+- Adiciona confiabilidadee ao programa (tipos);
+- Provê novas funcionalidades a JavaScript, como Interfaces;
+- Com TS podemos verificar os erros antes da execução do código, ou seja, no desenvolvimento;
+- Deixa JavaScript mais explicito, diminuindo a quantidade de bugs;
+- Por estes e outros motivos perdemos menos tempo com debug.
