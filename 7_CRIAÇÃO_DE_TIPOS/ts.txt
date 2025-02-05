@@ -6,3 +6,35 @@ Sobre a criação de novos tipos
 - Ou seja, gastar mais tempo na estruturação dos tipos e menos na busca de possiveis bugs depois;
 
 
+Generics
+
+- Utilizamos Generics quando uma função pode aceitar mais de um tipo;
+- É uma pratica mais interessante do que o any, que teria um efeito semelhante;
+
+
+Constraint em Generics
+
+- As constraints nos ajudam a limitar os tipos aceitos;
+- Como em Generic podemos ter tipos livres, elas vao filtrar os tipos aceitos;
+- Adicionando organização quando queremos aproveiar a liberdade dos Generic;
+
+
+Interfaces com Generics
+
+- Com interfaces podemos criar tipos complexos para objetos;
+- Adicionando Generics podemos deixa-los mais brandos;
+- Aceitando tipos diferentes em ocasiões diferentes;
+
+
+Type parameters
+
+- Type parameters é um recurso de Generics;
+- Utlizado para dizer que algum parametro de uma função, por exemplo, é a chave de um objeto, que tambem é parametro;
+- Desta maneira conseguimos cirar uma ligaçã entre o tipo generico e sua chave;
+
+
+keyof Type Operator
+
+- Com o keyof Type Operator podemos criar um novo tipo;
+- Ele aceita dados do tipo objeto, como object literals e arrays;
+- E pode criar o tipo baseado nas chaves do objeto passado como parâmetro;
